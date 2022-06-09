@@ -1,0 +1,66 @@
+# Verus Operations LTD - Unauthorized distribution of this program could lead to legal prosecution
+verus:
+  name: '&4&lAntiCheat'
+  sendstats: true
+  alerts:
+    certainty: '&7failed'
+    message: '{name} &8> &f{player} &7{certainty} &f{cheat} &7VL[&9{vl}&7]'
+    vl: '{vl}'
+    click:
+      enabled: true
+      command: /tp {player}
+      hover: '&9Click to teleport to {player}.'
+  bans:
+    commands:
+    - ban {player} &9&lVerus &8> &fCheating
+    message: '&9&lVerus &8> &f{player} &7has been removed from the network'
+    enabled: true
+    announce:
+      enabled: false
+  announcements:
+    enabled: false
+    message: ''
+    delay-minutes: 10
+  recentlogs:
+    message: '{time} {name} &7Failed &f{type} Type {subType} &7VL: &f{vl} &7P: &f{ping}'
+  bungee:
+    bans: false
+  permissions:
+    bypass:
+      enabled: false
+      permission: verus.bypass
+  commands:
+    ping:
+      enabled: true
+  checks:
+    schemprinter:
+      bans: true
+      enabled: true
+    butterflyclicking:
+      bans: true
+      enabled: true
+    phase:
+      enabled: false
+      strict: false
+  mongo:
+    enabled: false
+    host: localhost
+    port: 27017
+    database: Verus
+    auth:
+      enabled: false
+      username: verus
+      password: ''
+  mysql:
+    enabled: false
+    host: localhost
+    port: 3306
+    pool: 4
+    database: Verus
+    auth:
+      username: verus
+      password: ''
+  custom:
+    pluginName: verus
+    colorName: '9'
+    discord: https://discord.me/verus

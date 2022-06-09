@@ -1,0 +1,66 @@
+# Default time in ticks for a score to stay on the scoreboard (20 ticks = 1 second)
+UpdateTime: 20
+
+# Save which players have the scoreboard disabled
+SaveScoreboards: true
+
+# Configure your scoreboards layout
+Scoreboards:
+  example_scoreboard:
+    Titles:
+      - "&2&lXFAST&f&LMC.PL"
+    Scores:
+      16:
+        - ""
+      15:
+        - "&8» &fGracz: &a%player%"
+      14:
+        - "&8» &fRanga: &a%vault_rank%"
+      12:
+        - ""
+      11:
+        - "&8» &fGildia: &a%funnyguilds_g-tag%"
+      9:
+        - "&8» &fPunkty: &a%funnyguilds_points%"
+      8:
+        - "&8» &fZabojstwa: &a%funnyguilds_kills%"
+      7:
+        - "&8» &fSmierci: &a%funnyguilds_deaths%"
+      6:
+        - "&8» &fKDR: &a%funnyguilds_kdr%"
+      5:
+        - ""
+      4:
+        - "&8» &fPing: &a%funnyguilds_ping%"
+      3:
+        - ""
+      2:
+        - "&7Aby wylaczyc &a/sidebar"
+  example_with_time:
+    Titles:
+      - text: "&c100 ticks title"
+        time: 100
+      - text: "&a50 ticks title"
+        time: 50
+    Scores:
+      6:
+        - "&7You can set a per score or title time"
+      5:
+        - "&7instead of using the default value"
+      4:
+        - ""
+      3:
+        - text: "&7This will last for &810 seconds"
+          time: 200
+        - text: "&7while this only lasts for &85 seconds"
+          time: 100
+      2:
+        - ""
+      1:
+        - "&aYour current world: &6%world%"
+
+# Set what scoreboard each world will be using
+Worlds:
+  world: "example_scoreboard"
+  world_nether: "example_with_time"
+  world_the_end: "example_with_time"

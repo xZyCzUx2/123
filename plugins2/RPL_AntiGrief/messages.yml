@@ -1,0 +1,18 @@
+NoArg: '&8» &fUzycie: &e/zablokuj <reload/tnt/creeper/lava>'
+TNTBlock: '&4Blad! &cTNT na serwerze aktualnie jest &4zablokowane'
+TNT:
+  'On': '&8» &fBlokada TNT: &6ON'
+  'Off': '&8» &fBlokada TNT: &6OFF'
+CREEPER:
+  'On': '&8» &fBlokada CREEPER: &6ON'
+  'Off': '&8» &fBlokada CREEPER: &6OFF'
+LAVABlock: '&4Blad! &cWylewanie lavy na serwerze jest &4zablokowane'
+LAVA:
+  'On': '&8» &fBlokada LAVA: &6ON'
+  'Off': '&8» &fBlokada LAVA: &6OFF'
+FailedToSave: '&8» &cNie udalo sie zapisac nowych danych! &7Zrestartuj maszyne, lub
+  usun dane pluginu!'
+ReloadComplete: '&8» &2Przeladowano!'
+ReloadFailed: '&8» &cNie udalo sie przeladowac! &7Zrestartuj maszyne, lub usun dane
+  pluginu!'
+NoPerm: '&8» &cBrak permisji!'

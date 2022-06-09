@@ -1,0 +1,293 @@
+AimAssist:
+  C:
+    enabled: true
+    autoban: true
+  H:
+    enabled: true
+    autoban: false
+  A:
+    enabled: true
+    autoban: true
+  A1:
+    enabled: false
+    autoban: false
+  D:
+    enabled: true
+    autoban: true
+  J:
+    enabled: true
+    autoban: true
+KillAura:
+  E:
+    enabled: true
+    autoban: true
+  H:
+    enabled: true
+    autoban: true
+  F:
+    enabled: true
+    autoban: true
+  B:
+    enabled: true
+    autoban: true
+  K:
+    enabled: true
+    autoban: true
+  N:
+    enabled: true
+    autoban: true
+  C:
+    enabled: true
+    autoban: true
+  A:
+    enabled: true
+    autoban: true
+  G:
+    enabled: true
+    autoban: true
+  M:
+    enabled: true
+    autoban: true
+  D:
+    enabled: true
+    autoban: true
+  O:
+    enabled: true
+    autoban: true
+  H2:
+    enabled: true
+    autoban: true
+  Q:
+    enabled: true
+    autoban: true
+BadPackets:
+  B:
+    enabled: true
+    autoban: false
+  R:
+    enabled: false
+    autoban: false
+  H:
+    enabled: true
+    autoban: true
+  K:
+    enabled: true
+    autoban: false
+  Q:
+    enabled: true
+    autoban: false
+  A:
+    enabled: true
+    autoban: true
+  V:
+    enabled: true
+    autoban: false
+  P:
+    enabled: false
+    autoban: false
+  U:
+    enabled: true
+    autoban: false
+  J:
+    enabled: false
+    autoban: false
+  W:
+    enabled: false
+    autoban: false
+  X:
+    enabled: true
+    autoban: false
+  G:
+    enabled: true
+    autoban: false
+  F:
+    enabled: true
+    autoban: false
+  I:
+    enabled: true
+    autoban: false
+  Z:
+    enabled: true
+    autoban: true
+  C:
+    enabled: false
+    autoban: false
+  S:
+    enabled: false
+    autoban: false
+  L:
+    enabled: false
+    autoban: false
+  T:
+    enabled: true
+    autoban: true
+  O:
+    enabled: true
+    autoban: false
+  D:
+    enabled: true
+    autoban: false
+  E:
+    enabled: true
+    autoban: false
+  Y:
+    enabled: false
+    autoban: false
+  M:
+    enabled: true
+    autoban: true
+  N:
+    enabled: true
+    autoban: true
+Fly:
+  K:
+    enabled: true
+    autoban: true
+  I:
+    enabled: false
+    autoban: false
+  G:
+    enabled: false
+    autoban: false
+  F:
+    enabled: true
+    autoban: false
+  C:
+    enabled: true
+    autoban: true
+  E:
+    enabled: true
+    autoban: false
+  B:
+    enabled: true
+    autoban: true
+  D:
+    enabled: true
+    autoban: true
+  O:
+    enabled: false
+    autoban: false
+  Z:
+    enabled: true
+    autoban: true
+AutoClicker:
+  C:
+    enabled: false
+    autoban: false
+  J:
+    enabled: false
+    autoban: false
+  E:
+    enabled: false
+    autoban: false
+  D:
+    enabled: false
+    autoban: false
+  X:
+    enabled: false
+    autoban: false
+  B:
+    enabled: false
+    autoban: false
+  A:
+    enabled: false
+    autoban: false
+  Y:
+    enabled: true
+    autoban: false
+  I:
+    enabled: true
+    autoban: true
+Speed:
+  B:
+    enabled: true
+    autoban: true
+  E:
+    enabled: true
+    autoban: true
+  A:
+    enabled: true
+    autoban: true
+  F:
+    enabled: true
+    autoban: true
+Velocity:
+  A:
+    enabled: true
+    autoban: true
+  B:
+    enabled: true
+    autoban: false
+  C:
+    enabled: false
+    autoban: false
+Timer:
+  A:
+    enabled: true
+    autoban: true
+  C:
+    enabled: true
+    autoban: true
+  B:
+    enabled: true
+    autoban: true
+Inventory:
+  B:
+    enabled: false
+    autoban: false
+  J:
+    enabled: true
+    autoban: false
+  A:
+    enabled: true
+    autoban: false
+  C:
+    enabled: true
+    autoban: false
+  G:
+    enabled: true
+    autoban: true
+  K:
+    enabled: true
+    autoban: true
+Payload:
+  A:
+    enabled: true
+    autoban: false
+  B:
+    enabled: true
+    autoban: false
+Scaffold:
+  A:
+    enabled: true
+    autoban: false
+  D:
+    enabled: true
+    autoban: false
+  B:
+    enabled: true
+    autoban: true
+Reach:
+  A:
+    enabled: false
+    autoban: false
+  B:
+    enabled: true
+    autoban: false
+  C:
+    enabled: true
+    autoban: false
+Server Crasher:
+  C:
+    enabled: true
+    autoban: false
+  A:
+    enabled: true
+    autoban: false
+  B:
+    enabled: true
+    autoban: false
+Misc:
+  F:
+    enabled: true
+    autoban: false
